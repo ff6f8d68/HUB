@@ -1,0 +1,1111 @@
+[16Aug2024 21:10:19.214] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.229, --fml.fmlVersion, 2.0.17, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220, ]
+[16Aug2024 21:10:19.230] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[16Aug2024 21:10:19.257] [main/DEBUG] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Found launch services [minecraft,forgeclient,forgedatauserdev,testharness,forgeserverdev,forgeserveruserdev,forgeclientdev,forgeclientuserdev,forgeserver,forgedatadev]
+[16Aug2024 21:10:19.271] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Found naming services : [srgtomcp]
+[16Aug2024 21:10:19.293] [main/DEBUG] [cpw.mods.modlauncher.LaunchPluginHandler/MODLAUNCHER]: Found launch plugins: [mixin,slf4jfixer,runtime_enum_extender,accesstransformer,runtimedistcleaner]
+[16Aug2024 21:10:19.303] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Discovering transformation services
+[16Aug2024 21:10:19.311] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/codespaces-blank
+[16Aug2024 21:10:19.312] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/codespaces-blank/mods
+[16Aug2024 21:10:19.312] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/codespaces-blank/config
+[16Aug2024 21:10:19.312] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/codespaces-blank/config/fml.toml
+[16Aug2024 21:10:19.356] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /workspaces/codespaces-blank/config/fml.toml
+[16Aug2024 21:10:19.357] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[16Aug2024 21:10:19.357] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[16Aug2024 21:10:19.357] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[16Aug2024 21:10:19.357] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[16Aug2024 21:10:19.357] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[16Aug2024 21:10:19.358] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[16Aug2024 21:10:19.358] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[16Aug2024 21:10:19.358] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[16Aug2024 21:10:19.358] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[16Aug2024 21:10:19.359] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[16Aug2024 21:10:19.359] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[16Aug2024 21:10:19.359] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[16Aug2024 21:10:19.360] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[16Aug2024 21:10:19.374] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found additional transformation services from discovery services: 
+[16Aug2024 21:10:19.383] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Aug2024 21:10:19.394] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Found transformer services : [mixin,mixin-synthetic-package,fml]
+[16Aug2024 21:10:19.394] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading
+[16Aug2024 21:10:19.395] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin
+[16Aug2024 21:10:19.396] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin
+[16Aug2024 21:10:19.396] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service mixin-synthetic-package
+[16Aug2024 21:10:19.396] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service mixin-synthetic-package
+[16Aug2024 21:10:19.396] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loading service fml
+[16Aug2024 21:10:19.398] [main/DEBUG] [net.neoforged.fml.loading.LauncherVersion/CORE]: Found FMLLauncher version 2.0
+[16Aug2024 21:10:19.399] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML 2.0 loading
+[16Aug2024 21:10:19.399] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found ModLauncher version : 10.0.9+10.0.9+main.dcd20f30
+[16Aug2024 21:10:19.399] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found AccessTransformer version : 10.0.1+139da711
+[16Aug2024 21:10:19.400] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found EventBus version : null
+[16Aug2024 21:10:19.400] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found Runtime Dist Cleaner
+[16Aug2024 21:10:19.403] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: FML found CoreMod version : 6.0.4+main.1ed25481
+[16Aug2024 21:10:19.403] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package implementation version 2.0
+[16Aug2024 21:10:19.404] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Found ForgeSPI package specification 2
+[16Aug2024 21:10:19.404] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Loaded service fml
+[16Aug2024 21:10:19.405] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Configuring option handling for services
+[16Aug2024 21:10:19.418] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services initializing
+[16Aug2024 21:10:19.419] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin
+[16Aug2024 21:10:19.434] [main/DEBUG] [mixin/]: MixinService [ModLauncher] was successfully booted in cpw.mods.cl.ModuleClassLoader@4923ab24
+[16Aug2024 21:10:19.449] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-blank/libraries/net/fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/ Service=ModLauncher Env=SERVER
+[16Aug2024 21:10:19.453] [main/DEBUG] [mixin/]: Initialising Mixin Platform Manager
+[16Aug2024 21:10:19.456] [main/DEBUG] [mixin/]: Adding mixin platform agents for container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Aug2024 21:10:19.457] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Aug2024 21:10:19.458] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Aug2024 21:10:19.458] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Aug2024 21:10:19.458] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container ModLauncher Root Container(ModLauncher:4f56a0a2)
+[16Aug2024 21:10:19.460] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin
+[16Aug2024 21:10:19.461] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service mixin-synthetic-package
+[16Aug2024 21:10:19.461] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service mixin-synthetic-package
+[16Aug2024 21:10:19.462] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformation service fml
+[16Aug2024 21:10:19.462] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Setting up basic FML game directories
+[16Aug2024 21:10:19.463] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path GAMEDIR is /workspaces/codespaces-blank
+[16Aug2024 21:10:19.463] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path MODSDIR is /workspaces/codespaces-blank/mods
+[16Aug2024 21:10:19.463] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path CONFIGDIR is /workspaces/codespaces-blank/config
+[16Aug2024 21:10:19.463] [main/DEBUG] [net.neoforged.fml.loading.FMLPaths/CORE]: Path FMLCONFIG is /workspaces/codespaces-blank/config/fml.toml
+[16Aug2024 21:10:19.463] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading configuration
+[16Aug2024 21:10:19.465] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: Loaded FML config from /workspaces/codespaces-blank/config/fml.toml
+[16Aug2024 21:10:19.465] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableConfigWatcher is false
+[16Aug2024 21:10:19.465] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowControl is true
+[16Aug2024 21:10:19.466] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig maxThreads is 2
+[16Aug2024 21:10:19.466] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig versionCheck is true
+[16Aug2024 21:10:19.466] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig defaultConfigPath is defaultconfigs
+[16Aug2024 21:10:19.466] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig disableOptimizedDFU is true
+[16Aug2024 21:10:19.466] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowProvider is fmlearlywindow
+[16Aug2024 21:10:19.466] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowWidth is 854
+[16Aug2024 21:10:19.466] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowHeight is 480
+[16Aug2024 21:10:19.467] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowFBScale is 1
+[16Aug2024 21:10:19.467] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowMaximized is false
+[16Aug2024 21:10:19.467] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSkipGLVersions is []
+[16Aug2024 21:10:19.467] [main/TRACE] [net.neoforged.fml.loading.FMLConfig/CORE]: FMLConfig earlyWindowSquir is false
+[16Aug2024 21:10:19.467] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing ModFile
+[16Aug2024 21:10:19.470] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Preparing launch handler
+[16Aug2024 21:10:19.470] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Using forgeserver as launch service
+[16Aug2024 21:10:19.490] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/CORE]: Received command line version data  : VersionInfo[neoForgeVersion=20.4.229, fmlVersion=2.0.17, mcVersion=1.20.4, neoFormVersion=20231207.154220]
+[16Aug2024 21:10:19.491] [main/DEBUG] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Configuring for Dist DEDICATED_SERVER
+[16Aug2024 21:10:19.492] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformation service fml
+[16Aug2024 21:10:19.492] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Current naming domain is 'srg'
+[16Aug2024 21:10:19.494] [main/DEBUG] [cpw.mods.modlauncher.NameMappingServiceHandler/MODLAUNCHER]: Identified name mapping providers {}
+[16Aug2024 21:10:19.495] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services begin scanning
+[16Aug2024 21:10:19.495] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin
+[16Aug2024 21:10:19.495] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin
+[16Aug2024 21:10:19.496] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service mixin-synthetic-package
+[16Aug2024 21:10:19.499] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service mixin-synthetic-package
+[16Aug2024 21:10:19.499] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Beginning scan trigger - transformation service fml
+[16Aug2024 21:10:19.500] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Initiating mod scan
+[16Aug2024 21:10:19.500] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Scanning for Mod Locators
+[16Aug2024 21:10:19.517] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModListHandler/CORE]: Found mod coordinates from lists: []
+[16Aug2024 21:10:19.519] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Mod Locators : (mods folder:2.0),(maven libs:2.0),(exploded directory:2.0),(minecraft:2.0),(userdev classpath:2.0),(builtin game layer libraries:2.0)
+[16Aug2024 21:10:19.520] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/CORE]: Found Dependency Locators : (JarInJar:2.0)
+[16Aug2024 21:10:19.520] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Scanning for mods and other resources to load. We know 6 ways to find mods
+[16Aug2024 21:10:19.521] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.521] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModsFolderLocator/SCAN]: Scanning mods dir /workspaces/codespaces-blank/mods for mods
+[16Aug2024 21:10:19.526] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar]
+[16Aug2024 21:10:19.529] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar
+[16Aug2024 21:10:19.578] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-11.1.17-neoforge.jar with {architectury} mods - versions {11.1.17}
+[16Aug2024 21:10:19.579] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar]
+[16Aug2024 21:10:19.579] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar
+[16Aug2024 21:10:19.583] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar with {drippyloadingscreen} mods - versions {3.0.3}
+[16Aug2024 21:10:19.584] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar]
+[16Aug2024 21:10:19.585] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar
+[16Aug2024 21:10:19.589] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file fancymenu_neoforge_3.2.3_MC_1.20.4.jar with {fancymenu} mods - versions {3.2.3}
+[16Aug2024 21:10:19.590] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar]
+[16Aug2024 21:10:19.590] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar
+[16Aug2024 21:10:19.594] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file fmsia_neoforge_1.0.1_MC_1.20.4.jar with {fmsia} mods - versions {1.0.1}
+[16Aug2024 21:10:19.595] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar]
+[16Aug2024 21:10:19.595] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar
+[16Aug2024 21:10:19.599] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-neoforge-1.20.4-4.4.4.jar with {geckolib} mods - versions {4.4.4}
+[16Aug2024 21:10:19.600] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar]
+[16Aug2024 21:10:19.600] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar
+[16Aug2024 21:10:19.603] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file konkrete_neoforge_1.9.1_MC_1.20.4.jar with {konkrete} mods - versions {1.9.1}
+[16Aug2024 21:10:19.603] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/melody_neoforge_1.0.5_MC_1.20.4.jar]
+[16Aug2024 21:10:19.603] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/melody_neoforge_1.0.5_MC_1.20.4.jar
+[16Aug2024 21:10:19.604] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file melody_neoforge_1.0.5_MC_1.20.4.jar with {melody} mods - versions {1.0.5}
+[16Aug2024 21:10:19.605] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/particlepresets-1.0.0-neoforge-1.20.4.jar]
+[16Aug2024 21:10:19.605] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/particlepresets-1.0.0-neoforge-1.20.4.jar
+[16Aug2024 21:10:19.607] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file particlepresets-1.0.0-neoforge-1.20.4.jar with {particlepresets} mods - versions {1.0.0}
+[16Aug2024 21:10:19.608] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [/workspaces/codespaces-blank/mods/world-host-0.4.14+1.20.4-neoforge.jar]
+[16Aug2024 21:10:19.608] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/world-host-0.4.14+1.20.4-neoforge.jar
+[16Aug2024 21:10:19.610] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file world-host-0.4.14+1.20.4-neoforge.jar with {world_host} mods - versions {0.4.14+1.20.4-neoforge}
+[16Aug2024 21:10:19.612] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/codespaces-blank/mods} found 9 candidates or errors
+[16Aug2024 21:10:19.614] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {mods folder locator at /workspaces/codespaces-blank/mods} found 9 valid mod files
+[16Aug2024 21:10:19.615] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-11.1.17-neoforge.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.615] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.615] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fancymenu_neoforge_3.2.3_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.616] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fmsia_neoforge_1.0.1_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.616] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.20.4-4.4.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.617] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.1_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.617] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "melody_neoforge_1.0.5_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.617] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "particlepresets-1.0.0-neoforge-1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.618] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "world-host-0.4.14+1.20.4-neoforge.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.619] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {Maven Directory locator for mods []}
+[16Aug2024 21:10:19.619] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 candidates or errors
+[16Aug2024 21:10:19.620] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {Maven Directory locator for mods []} found 0 valid mod files
+[16Aug2024 21:10:19.620] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator {ExplodedDir locator}
+[16Aug2024 21:10:19.622] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 candidates or errors
+[16Aug2024 21:10:19.623] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator {ExplodedDir locator} found 0 valid mod files
+[16Aug2024 21:10:19.623] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@19b30c92
+[16Aug2024 21:10:19.704] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.4-20231207.154220-srg.jar with {minecraft} mods - versions {1.20.4}
+[16Aug2024 21:10:19.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/mods.toml mod of type null: [libraries/net/neoforged/neoforge/20.4.229/neoforge-20.4.229-universal.jar]
+[16Aug2024 21:10:19.707] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/libraries/net/neoforged/neoforge/20.4.229/neoforge-20.4.229-universal.jar
+[16Aug2024 21:10:19.710] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.229-universal.jar with {neoforge} mods - versions {20.4.229}
+[16Aug2024 21:10:19.711] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@19b30c92 found 2 candidates or errors
+[16Aug2024 21:10:19.711] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.MinecraftLocator@19b30c92 found 2 valid mod files
+[16Aug2024 21:10:19.712] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.20.4-20231207.154220-srg.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@19b30c92
+[16Aug2024 21:10:19.713] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.4.229-universal.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@19b30c92
+[16Aug2024 21:10:19.713] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@538613b3
+[16Aug2024 21:10:19.713] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@538613b3 found 0 candidates or errors
+[16Aug2024 21:10:19.714] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.ClasspathLocator@538613b3 found 0 valid mod files
+[16Aug2024 21:10:19.714] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@1eef9aef
+[16Aug2024 21:10:19.714] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@1eef9aef found 0 candidates or errors
+[16Aug2024 21:10:19.714] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Locator net.neoforged.fml.loading.moddiscovery.BuiltinGameLibraryLocator@1eef9aef found 0 valid mod files
+[16Aug2024 21:10:19.724] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Successfully Loaded 11 mods. Attempting to load dependencies...
+[16Aug2024 21:10:19.724] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Trying locator net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.735] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from server-1.20.4-20231207.154220-srg.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.736] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from melody_neoforge_1.0.5_MC_1.20.4.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.736] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from fmsia_neoforge_1.0.1_MC_1.20.4.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.737] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from konkrete_neoforge_1.9.1_MC_1.20.4.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.737] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from architectury-11.1.17-neoforge.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.737] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from particlepresets-1.0.0-neoforge-1.20.4.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.738] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.801] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.803] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.808] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.809] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.812] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.814] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.816] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from japng-0.5.3.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.816] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from animated-gif-lib-for-java-animated-gif-lib-1.7.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.816] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mixinextras-neoforge-0.3.5.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.816] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from json-0.3.0.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.816] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from semver4j-5.3.0.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.817] [main/TRACE] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileDependencyLocator/]: Failed to load resource META-INF/jarjar/metadata.json from mclib-20.jar, it does not contain dependency information.
+[16Aug2024 21:10:19.840] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.856] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.859] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.859] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.862] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.864] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractModProvider/SCAN]: Found META-INF/MANIFEST.MF mod of type GAMELIBRARY: []
+[16Aug2024 21:10:19.866] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[16Aug2024 21:10:19.867] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "animated-gif-lib-for-java-animated-gif-lib-1.7.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.867] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mclib-20.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.868] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "semver4j-5.3.0.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.869] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "json-0.3.0.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.870] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.5.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.871] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "japng-0.5.3.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.876] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file server-1.20.4-20231207.154220-srg.jar with {minecraft} mods - versions {1.20.4}
+[16Aug2024 21:10:19.879] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar with languages [LanguageSpec[languageName=minecraft, acceptedVersions=1]]
+[16Aug2024 21:10:19.880] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar
+[16Aug2024 21:10:19.881] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file fancymenu_neoforge_3.2.3_MC_1.20.4.jar with {fancymenu} mods - versions {3.2.3}
+[16Aug2024 21:10:19.881] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[16Aug2024 21:10:19.882] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config fancymenu.mixins.json
+[16Aug2024 21:10:19.882] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config fancymenu.neoforge.mixins.json
+[16Aug2024 21:10:19.883] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar
+[16Aug2024 21:10:19.883] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file geckolib-neoforge-1.20.4-4.4.4.jar with {geckolib} mods - versions {4.4.4}
+[16Aug2024 21:10:19.884] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,)]]
+[16Aug2024 21:10:19.884] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config geckolib.mixins.json
+[16Aug2024 21:10:19.884] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar
+[16Aug2024 21:10:19.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file architectury-11.1.17-neoforge.jar with {architectury} mods - versions {11.1.17}
+[16Aug2024 21:10:19.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,)]]
+[16Aug2024 21:10:19.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config architectury.mixins.json
+[16Aug2024 21:10:19.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config architectury-common.mixins.json
+[16Aug2024 21:10:19.885] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/melody_neoforge_1.0.5_MC_1.20.4.jar
+[16Aug2024 21:10:19.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file melody_neoforge_1.0.5_MC_1.20.4.jar with {melody} mods - versions {1.0.5}
+[16Aug2024 21:10:19.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/melody_neoforge_1.0.5_MC_1.20.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[16Aug2024 21:10:19.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config melody.mixins.json
+[16Aug2024 21:10:19.886] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config melody.neoforge.mixins.json
+[16Aug2024 21:10:19.887] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/world-host-0.4.14+1.20.4-neoforge.jar
+[16Aug2024 21:10:19.887] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file world-host-0.4.14+1.20.4-neoforge.jar with {world_host} mods - versions {0.4.14+1.20.4-neoforge}
+[16Aug2024 21:10:19.887] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/world-host-0.4.14+1.20.4-neoforge.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,)]]
+[16Aug2024 21:10:19.888] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config world-host.mixins.json
+[16Aug2024 21:10:19.888] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar
+[16Aug2024 21:10:19.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file fmsia_neoforge_1.0.1_MC_1.20.4.jar with {fmsia} mods - versions {1.0.1}
+[16Aug2024 21:10:19.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[16Aug2024 21:10:19.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config fmsia.mixins.json
+[16Aug2024 21:10:19.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config fmsia.neoforge.mixins.json
+[16Aug2024 21:10:19.889] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar
+[16Aug2024 21:10:19.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file konkrete_neoforge_1.9.1_MC_1.20.4.jar with {konkrete} mods - versions {1.9.1}
+[16Aug2024 21:10:19.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[16Aug2024 21:10:19.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config konkrete.mixins.json
+[16Aug2024 21:10:19.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config konkrete.neoforge.mixins.json
+[16Aug2024 21:10:19.890] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/libraries/net/neoforged/neoforge/20.4.229/neoforge-20.4.229-universal.jar
+[16Aug2024 21:10:19.891] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file neoforge-20.4.229-universal.jar with {neoforge} mods - versions {20.4.229}
+[16Aug2024 21:10:19.891] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/libraries/net/neoforged/neoforge/20.4.229/neoforge-20.4.229-universal.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[1,]]]
+[16Aug2024 21:10:19.893] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_method with Javascript path coremods/field_to_method.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod field_to_instanceof with Javascript path coremods/field_to_instanceof.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod add_bouncer_method with Javascript path coremods/add_bouncer_method.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Found coremod method_redirector with Javascript path coremods/method_redirector.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_method.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/field_to_instanceof.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/add_bouncer_method.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found coremod coremods/method_redirector.js
+[16Aug2024 21:10:19.894] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar
+[16Aug2024 21:10:19.895] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar with {drippyloadingscreen} mods - versions {3.0.3}
+[16Aug2024 21:10:19.896] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[16Aug2024 21:10:19.896] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config drippyloadingscreen.mixins.json
+[16Aug2024 21:10:19.896] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Found mixin config drippyloadingscreen.neoforge.mixins.json
+[16Aug2024 21:10:19.896] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileParser/LOADING]: Considering mod file candidate /workspaces/codespaces-blank/mods/particlepresets-1.0.0-neoforge-1.20.4.jar
+[16Aug2024 21:10:19.897] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFileInfo/LOADING]: Found valid mod file particlepresets-1.0.0-neoforge-1.20.4.jar with {particlepresets} mods - versions {1.0.0}
+[16Aug2024 21:10:19.897] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file /workspaces/codespaces-blank/mods/particlepresets-1.0.0-neoforge-1.20.4.jar with languages [LanguageSpec[languageName=javafml, acceptedVersions=[2,)]]
+[16Aug2024 21:10:19.897] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[16Aug2024 21:10:19.897] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[16Aug2024 21:10:19.897] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[16Aug2024 21:10:19.897] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[16Aug2024 21:10:19.898] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[16Aug2024 21:10:19.898] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModFile/LOADING]: Loading mod file  with languages []
+[16Aug2024 21:10:19.899] [main/DEBUG] [net.neoforged.fml.loading.moddiscovery.ModValidator/SCAN]: Found 17 mod files with 11 mods
+[16Aug2024 21:10:19.900] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: End scan trigger - transformation service fml
+[16Aug2024 21:10:19.904] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found 3 language providers
+[16Aug2024 21:10:19.907] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider javafml, version 2.0
+[16Aug2024 21:10:19.907] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider lowcodefml, version 2.0
+[16Aug2024 21:10:19.907] [main/DEBUG] [net.neoforged.fml.loading.LanguageLoadingProvider/CORE]: Found language provider minecraft, version 2.0
+[16Aug2024 21:10:19.913] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Configured system mods: [minecraft, neoforge]
+[16Aug2024 21:10:19.913] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: minecraft
+[16Aug2024 21:10:19.913] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/]: Found system mod: neoforge
+[16Aug2024 21:10:19.916] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 26 mod requirements (23 mandatory, 3 optional)
+[16Aug2024 21:10:19.917] [main/DEBUG] [net.neoforged.fml.loading.ModSorter/LOADING]: Found 0 mod requirements missing (0 mandatory, 0 optional)
+[16Aug2024 21:10:20.268] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar
+[16Aug2024 21:10:20.271] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.391] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.392] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar
+[16Aug2024 21:10:20.393] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.399] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.399] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar
+[16Aug2024 21:10:20.401] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.466] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.473] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar
+[16Aug2024 21:10:20.473] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.476] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.479] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar
+[16Aug2024 21:10:20.479] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.481] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.481] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/codespaces-blank/libraries/net/neoforged/neoforge/20.4.229/neoforge-20.4.229-universal.jar
+[16Aug2024 21:10:20.484] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.532] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.534] [main/DEBUG] [net.neoforged.fml.loading.FMLLoader/SCAN]: Adding Access Transformer in /workspaces/codespaces-blank/mods/drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar
+[16Aug2024 21:10:20.534] [main/DEBUG] [AXFORM/AXFORM]: Loading access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.537] [main/DEBUG] [AXFORM/AXFORM]: Loaded access transformer accesstransformer.cfg
+[16Aug2024 21:10:20.545] [main/DEBUG] [mixin/]: Adding mixin platform agents for container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08
+[16Aug2024 21:10:20.545] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08
+[16Aug2024 21:10:20.545] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08
+[16Aug2024 21:10:20.545] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08
+[16Aug2024 21:10:20.546] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08
+[16Aug2024 21:10:20.546] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08
+[16Aug2024 21:10:20.546] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent accepted container net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08
+[16Aug2024 21:10:20.553] [main/DEBUG] [cpw.mods.modlauncher.TransformationServicesHandler/MODLAUNCHER]: Transformation services loading transformers
+[16Aug2024 21:10:20.554] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin
+[16Aug2024 21:10:20.555] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin
+[16Aug2024 21:10:20.555] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service mixin-synthetic-package
+[16Aug2024 21:10:20.555] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service mixin-synthetic-package
+[16Aug2024 21:10:20.555] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initializing transformers for transformation service fml
+[16Aug2024 21:10:20.555] [main/DEBUG] [net.neoforged.fml.loading.FMLServiceProvider/CORE]: Loading coremod transformers
+[16Aug2024 21:10:20.556] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_method.js
+[16Aug2024 21:10:20.562] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar
+[16Aug2024 21:10:20.896] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[16Aug2024 21:10:20.896] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/field_to_instanceof.js
+[16Aug2024 21:10:21.025] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[16Aug2024 21:10:21.025] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/add_bouncer_method.js
+[16Aug2024 21:10:21.094] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[16Aug2024 21:10:21.094] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: Loading CoreMod from coremods/method_redirector.js
+[16Aug2024 21:10:21.207] [main/DEBUG] [net.neoforged.coremod.CoreModEngine/COREMOD]: CoreMod loaded successfully
+[16Aug2024 21:10:21.231] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@512575e9 to Target : CLASS {Lnet/minecraft/world/level/biome/Biome;} {} {V}
+[16Aug2024 21:10:21.232] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@48a0c8aa to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/Structure;} {} {V}
+[16Aug2024 21:10:21.233] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@6192a5d5 to Target : CLASS {Lnet/minecraft/world/level/block/LiquidBlock;} {} {V}
+[16Aug2024 21:10:21.233] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@3722c145 to Target : CLASS {Lnet/minecraft/world/item/BucketItem;} {} {V}
+[16Aug2024 21:10:21.233] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@4cbc2e3b to Target : CLASS {Lnet/minecraft/world/level/block/StairBlock;} {} {V}
+[16Aug2024 21:10:21.233] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@2975a9e to Target : CLASS {Lnet/minecraft/world/level/block/FlowerPotBlock;} {} {V}
+[16Aug2024 21:10:21.233] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@765ffb14 to Target : CLASS {Lnet/minecraft/network/play/client/CClientSettingsPacket;} {} {V}
+[16Aug2024 21:10:21.234] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal;} {} {V}
+[16Aug2024 21:10:21.234] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/monster/ZombieVillager;} {} {V}
+[16Aug2024 21:10:21.234] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/monster/Strider;} {} {V}
+[16Aug2024 21:10:21.234] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/raid/Raid;} {} {V}
+[16Aug2024 21:10:21.234] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PhantomSpawner;} {} {V}
+[16Aug2024 21:10:21.234] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece;} {} {V}
+[16Aug2024 21:10:21.235] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/ai/village/VillageSiege;} {} {V}
+[16Aug2024 21:10:21.235] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/animal/horse/SkeletonTrapGoal;} {} {V}
+[16Aug2024 21:10:21.235] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/npc/CatSpawner;} {} {V}
+[16Aug2024 21:10:21.235] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/animal/frog/Tadpole;} {} {V}
+[16Aug2024 21:10:21.235] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/npc/Villager;} {} {V}
+[16Aug2024 21:10:21.235] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/NaturalSpawner;} {} {V}
+[16Aug2024 21:10:21.235] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece;} {} {V}
+[16Aug2024 21:10:21.236] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/monster/Spider;} {} {V}
+[16Aug2024 21:10:21.238] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/server/commands/RaidCommand;} {} {V}
+[16Aug2024 21:10:21.238] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/monster/Zombie;} {} {V}
+[16Aug2024 21:10:21.238] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;} {} {V}
+[16Aug2024 21:10:21.239] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/server/commands/SummonCommand;} {} {V}
+[16Aug2024 21:10:21.239] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/entity/EntityType;} {} {V}
+[16Aug2024 21:10:21.239] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/levelgen/PatrolSpawner;} {} {V}
+[16Aug2024 21:10:21.239] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/SwampHutPiece;} {} {V}
+[16Aug2024 21:10:21.239] [main/DEBUG] [cpw.mods.modlauncher.TransformStore/MODLAUNCHER]: Adding transformer net.neoforged.coremod.transformer.CoreModClassTransformer@57562473 to Target : CLASS {Lnet/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece;} {} {V}
+[16Aug2024 21:10:21.239] [main/DEBUG] [cpw.mods.modlauncher.TransformationServiceDecorator/MODLAUNCHER]: Initialized transformers for transformation service fml
+[16Aug2024 21:10:21.534] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[16Aug2024 21:10:21.544] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08]
+[16Aug2024 21:10:21.544] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[FMLMixinPlatformAgent:null]
+[16Aug2024 21:10:21.621] [main/DEBUG] [mixin/]: Compatibility level JAVA_17 specified by fancymenu.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[16Aug2024 21:10:21.628] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Aug2024 21:10:21.638] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by architectury.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[16Aug2024 21:10:21.641] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by architectury-common.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[16Aug2024 21:10:21.653] [main/DEBUG] [mixin/]: Compatibility level JAVA_16 specified by world-host.mixins.json is higher than the maximum level supported by this version of mixin (JAVA_13).
+[16Aug2024 21:10:21.658] [main/DEBUG] [mixin/]: Processing launch tasks for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[16Aug2024 21:10:21.659] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinsynthetic)
+[16Aug2024 21:10:21.659] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinsynthetic)
+[16Aug2024 21:10:21.659] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinsynthetic)
+[16Aug2024 21:10:21.659] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinsynthetic)
+[16Aug2024 21:10:21.659] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinsynthetic)
+[16Aug2024 21:10:21.659] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinsynthetic)
+[16Aug2024 21:10:21.661] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinsynthetic)
+[16Aug2024 21:10:21.661] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[16Aug2024 21:10:21.661] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(minecraft)
+[16Aug2024 21:10:21.661] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(minecraft)
+[16Aug2024 21:10:21.661] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(minecraft)
+[16Aug2024 21:10:21.662] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(minecraft)
+[16Aug2024 21:10:21.662] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(minecraft)
+[16Aug2024 21:10:21.662] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(minecraft)
+[16Aug2024 21:10:21.662] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(minecraft)
+[16Aug2024 21:10:21.662] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[16Aug2024 21:10:21.670] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(fancymenu)
+[16Aug2024 21:10:21.670] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(fancymenu)
+[16Aug2024 21:10:21.670] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(fancymenu)
+[16Aug2024 21:10:21.670] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(fancymenu)
+[16Aug2024 21:10:21.671] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(fancymenu)
+[16Aug2024 21:10:21.671] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(fancymenu)
+[16Aug2024 21:10:21.671] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(fancymenu)
+[16Aug2024 21:10:21.672] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fancymenu)]
+[16Aug2024 21:10:21.672] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(geckolib)
+[16Aug2024 21:10:21.672] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(geckolib)
+[16Aug2024 21:10:21.672] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(geckolib)
+[16Aug2024 21:10:21.673] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(geckolib)
+[16Aug2024 21:10:21.673] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(geckolib)
+[16Aug2024 21:10:21.673] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(geckolib)
+[16Aug2024 21:10:21.673] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(geckolib)
+[16Aug2024 21:10:21.673] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(geckolib)]
+[16Aug2024 21:10:21.674] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(architectury)
+[16Aug2024 21:10:21.674] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(architectury)
+[16Aug2024 21:10:21.674] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(architectury)
+[16Aug2024 21:10:21.674] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(architectury)
+[16Aug2024 21:10:21.674] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(architectury)
+[16Aug2024 21:10:21.675] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(architectury)
+[16Aug2024 21:10:21.675] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(architectury)
+[16Aug2024 21:10:21.675] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(architectury)]
+[16Aug2024 21:10:21.675] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(melody)
+[16Aug2024 21:10:21.675] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(melody)
+[16Aug2024 21:10:21.676] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(melody)
+[16Aug2024 21:10:21.676] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(melody)
+[16Aug2024 21:10:21.676] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(melody)
+[16Aug2024 21:10:21.676] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(melody)
+[16Aug2024 21:10:21.676] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(melody)
+[16Aug2024 21:10:21.677] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(melody)]
+[16Aug2024 21:10:21.677] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(world_host)
+[16Aug2024 21:10:21.677] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(world_host)
+[16Aug2024 21:10:21.677] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(world_host)
+[16Aug2024 21:10:21.677] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(world_host)
+[16Aug2024 21:10:21.677] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(world_host)
+[16Aug2024 21:10:21.678] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(world_host)
+[16Aug2024 21:10:21.678] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(world_host)
+[16Aug2024 21:10:21.678] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(world_host)]
+[16Aug2024 21:10:21.678] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(fmsia)
+[16Aug2024 21:10:21.678] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(fmsia)
+[16Aug2024 21:10:21.678] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(fmsia)
+[16Aug2024 21:10:21.679] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(fmsia)
+[16Aug2024 21:10:21.679] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(fmsia)
+[16Aug2024 21:10:21.679] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(fmsia)
+[16Aug2024 21:10:21.679] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(fmsia)
+[16Aug2024 21:10:21.679] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fmsia)]
+[16Aug2024 21:10:21.679] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(konkrete)
+[16Aug2024 21:10:21.679] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(konkrete)
+[16Aug2024 21:10:21.680] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(konkrete)
+[16Aug2024 21:10:21.680] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(konkrete)
+[16Aug2024 21:10:21.680] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(konkrete)
+[16Aug2024 21:10:21.680] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(konkrete)
+[16Aug2024 21:10:21.681] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(konkrete)
+[16Aug2024 21:10:21.681] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(konkrete)]
+[16Aug2024 21:10:21.681] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(neoforge)
+[16Aug2024 21:10:21.681] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(neoforge)
+[16Aug2024 21:10:21.682] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(neoforge)
+[16Aug2024 21:10:21.682] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(neoforge)
+[16Aug2024 21:10:21.682] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(neoforge)
+[16Aug2024 21:10:21.682] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(neoforge)
+[16Aug2024 21:10:21.683] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(neoforge)
+[16Aug2024 21:10:21.683] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[16Aug2024 21:10:21.683] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(particlepresets)
+[16Aug2024 21:10:21.688] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(particlepresets)
+[16Aug2024 21:10:21.688] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(particlepresets)
+[16Aug2024 21:10:21.688] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(particlepresets)
+[16Aug2024 21:10:21.688] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(particlepresets)
+[16Aug2024 21:10:21.688] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(particlepresets)
+[16Aug2024 21:10:21.689] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(particlepresets)
+[16Aug2024 21:10:21.689] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(particlepresets)]
+[16Aug2024 21:10:21.689] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(drippyloadingscreen)
+[16Aug2024 21:10:21.690] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(drippyloadingscreen)
+[16Aug2024 21:10:21.690] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(drippyloadingscreen)
+[16Aug2024 21:10:21.690] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(drippyloadingscreen)
+[16Aug2024 21:10:21.690] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(drippyloadingscreen)
+[16Aug2024 21:10:21.690] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(drippyloadingscreen)
+[16Aug2024 21:10:21.690] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(drippyloadingscreen)
+[16Aug2024 21:10:21.691] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(drippyloadingscreen)]
+[16Aug2024 21:10:21.691] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.quiltmc.parsers.json)
+[16Aug2024 21:10:21.691] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.quiltmc.parsers.json)
+[16Aug2024 21:10:21.691] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.quiltmc.parsers.json)
+[16Aug2024 21:10:21.691] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.quiltmc.parsers.json)
+[16Aug2024 21:10:21.692] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.quiltmc.parsers.json)
+[16Aug2024 21:10:21.692] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.quiltmc.parsers.json)
+[16Aug2024 21:10:21.692] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.quiltmc.parsers.json)
+[16Aug2024 21:10:21.692] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.quiltmc.parsers.json)]
+[16Aug2024 21:10:21.692] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mclib)
+[16Aug2024 21:10:21.692] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mclib)
+[16Aug2024 21:10:21.692] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mclib)
+[16Aug2024 21:10:21.693] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mclib)
+[16Aug2024 21:10:21.693] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mclib)
+[16Aug2024 21:10:21.693] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mclib)
+[16Aug2024 21:10:21.693] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mclib)
+[16Aug2024 21:10:21.693] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mclib)]
+[16Aug2024 21:10:21.693] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(com.madgag.gif.fmsware)
+[16Aug2024 21:10:21.694] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(com.madgag.gif.fmsware)
+[16Aug2024 21:10:21.694] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(com.madgag.gif.fmsware)
+[16Aug2024 21:10:21.694] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(com.madgag.gif.fmsware)
+[16Aug2024 21:10:21.694] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(com.madgag.gif.fmsware)
+[16Aug2024 21:10:21.694] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(com.madgag.gif.fmsware)
+[16Aug2024 21:10:21.704] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(com.madgag.gif.fmsware)
+[16Aug2024 21:10:21.704] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.madgag.gif.fmsware)]
+[16Aug2024 21:10:21.704] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(org.semver4j)
+[16Aug2024 21:10:21.704] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(org.semver4j)
+[16Aug2024 21:10:21.705] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(org.semver4j)
+[16Aug2024 21:10:21.705] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(org.semver4j)
+[16Aug2024 21:10:21.705] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(org.semver4j)
+[16Aug2024 21:10:21.705] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(org.semver4j)
+[16Aug2024 21:10:21.705] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(org.semver4j)
+[16Aug2024 21:10:21.706] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.semver4j)]
+[16Aug2024 21:10:21.706] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(japng)
+[16Aug2024 21:10:21.706] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(japng)
+[16Aug2024 21:10:21.706] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(japng)
+[16Aug2024 21:10:21.706] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(japng)
+[16Aug2024 21:10:21.706] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(japng)
+[16Aug2024 21:10:21.707] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(japng)
+[16Aug2024 21:10:21.707] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(japng)
+[16Aug2024 21:10:21.707] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(japng)]
+[16Aug2024 21:10:21.707] [main/DEBUG] [mixin/]: Adding mixin platform agents for container SecureJarResource(mixinextras.neoforge)
+[16Aug2024 21:10:21.707] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentMinecraftForge for SecureJarResource(mixinextras.neoforge)
+[16Aug2024 21:10:21.707] [main/DEBUG] [mixin/]: MixinPlatformAgentMinecraftForge rejected container SecureJarResource(mixinextras.neoforge)
+[16Aug2024 21:10:21.708] [main/DEBUG] [mixin/]: Instancing new MixinPlatformAgentDefault for SecureJarResource(mixinextras.neoforge)
+[16Aug2024 21:10:21.708] [main/DEBUG] [mixin/]: MixinPlatformAgentDefault accepted container SecureJarResource(mixinextras.neoforge)
+[16Aug2024 21:10:21.708] [main/DEBUG] [mixin/]: Instancing new FMLMixinPlatformAgent for SecureJarResource(mixinextras.neoforge)
+[16Aug2024 21:10:21.708] [main/DEBUG] [mixin/]: FMLMixinPlatformAgent rejected container SecureJarResource(mixinextras.neoforge)
+[16Aug2024 21:10:21.708] [main/DEBUG] [mixin/]: Processing prepare() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[16Aug2024 21:10:21.708] [main/DEBUG] [mixin/]: Registering mixin config: mixinextras.init.mixins.json
+[16Aug2024 21:10:21.710] [main/DEBUG] [mixin/]: inject() running with 20 agents
+[16Aug2024 21:10:21.710] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:ModLauncher Root Container(ModLauncher:4f56a0a2)]
+[16Aug2024 21:10:21.710] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:net.neoforged.fml.loading.mixin.FMLMixinContainerHandle@77134e08]
+[16Aug2024 21:10:21.710] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[FMLMixinPlatformAgent:null]
+[16Aug2024 21:10:21.711] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinsynthetic)]
+[16Aug2024 21:10:21.711] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(minecraft)]
+[16Aug2024 21:10:21.711] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fancymenu)]
+[16Aug2024 21:10:21.712] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(geckolib)]
+[16Aug2024 21:10:21.712] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(architectury)]
+[16Aug2024 21:10:21.712] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(melody)]
+[16Aug2024 21:10:21.712] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(world_host)]
+[16Aug2024 21:10:21.712] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(fmsia)]
+[16Aug2024 21:10:21.712] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(konkrete)]
+[16Aug2024 21:10:21.713] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(neoforge)]
+[16Aug2024 21:10:21.713] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(particlepresets)]
+[16Aug2024 21:10:21.713] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(drippyloadingscreen)]
+[16Aug2024 21:10:21.713] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.quiltmc.parsers.json)]
+[16Aug2024 21:10:21.714] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mclib)]
+[16Aug2024 21:10:21.714] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(com.madgag.gif.fmsware)]
+[16Aug2024 21:10:21.714] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(org.semver4j)]
+[16Aug2024 21:10:21.714] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(japng)]
+[16Aug2024 21:10:21.714] [main/DEBUG] [mixin/]: Processing inject() for PlatformAgent[MixinPlatformAgentDefault:SecureJarResource(mixinextras.neoforge)]
+[16Aug2024 21:10:21.715] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[16Aug2024 21:10:21.741] [main/DEBUG] [mixin/]: Error cleaning class output directory: .mixin.out
+[16Aug2024 21:10:21.756] [main/DEBUG] [mixin/]: Preparing mixins for MixinEnvironment[DEFAULT]
+[16Aug2024 21:10:21.756] [main/DEBUG] [mixin/]: Selecting config fancymenu.mixins.json
+[16Aug2024 21:10:21.775] [main/WARN] [mixin/]: Reference map 'fancymenu.refmap.json' for fancymenu.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.776] [main/DEBUG] [mixin/]: Selecting config fancymenu.neoforge.mixins.json
+[16Aug2024 21:10:21.776] [main/WARN] [mixin/]: Reference map 'fancymenu.refmap.json' for fancymenu.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.777] [main/DEBUG] [mixin/]: Selecting config geckolib.mixins.json
+[16Aug2024 21:10:21.777] [main/DEBUG] [mixin/]: Selecting config architectury.mixins.json
+[16Aug2024 21:10:21.779] [main/DEBUG] [mixin/]: Selecting config architectury-common.mixins.json
+[16Aug2024 21:10:21.779] [main/DEBUG] [mixin/]: Selecting config melody.mixins.json
+[16Aug2024 21:10:21.789] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.789] [main/DEBUG] [mixin/]: Selecting config melody.neoforge.mixins.json
+[16Aug2024 21:10:21.790] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.795] [main/DEBUG] [mixin/]: Selecting config world-host.mixins.json
+[16Aug2024 21:10:21.795] [main/DEBUG] [mixin/]: Selecting config fmsia.mixins.json
+[16Aug2024 21:10:21.800] [main/WARN] [mixin/]: Reference map 'fmsia.refmap.json' for fmsia.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.800] [main/DEBUG] [mixin/]: Selecting config fmsia.neoforge.mixins.json
+[16Aug2024 21:10:21.801] [main/WARN] [mixin/]: Reference map 'fmsia.refmap.json' for fmsia.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.801] [main/DEBUG] [mixin/]: Selecting config konkrete.mixins.json
+[16Aug2024 21:10:21.803] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.806] [main/DEBUG] [mixin/]: Selecting config konkrete.neoforge.mixins.json
+[16Aug2024 21:10:21.806] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.807] [main/DEBUG] [mixin/]: Selecting config drippyloadingscreen.mixins.json
+[16Aug2024 21:10:21.813] [main/WARN] [mixin/]: Reference map 'drippyloadingscreen.refmap.json' for drippyloadingscreen.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.813] [main/DEBUG] [mixin/]: Selecting config drippyloadingscreen.neoforge.mixins.json
+[16Aug2024 21:10:21.815] [main/WARN] [mixin/]: Reference map 'drippyloadingscreen.refmap.json' for drippyloadingscreen.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.815] [main/DEBUG] [mixin/]: Selecting config mixinextras.init.mixins.json
+[16Aug2024 21:10:21.859] [main/DEBUG] [MixinExtras|Service/]: com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5) is taking over from null
+[16Aug2024 21:10:21.898] [main/DEBUG] [mixin/]: Registering new injector for @Inject with org.spongepowered.asm.mixin.injection.struct.CallbackInjectionInfo
+[16Aug2024 21:10:21.899] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArg with org.spongepowered.asm.mixin.injection.struct.ModifyArgInjectionInfo
+[16Aug2024 21:10:21.917] [main/DEBUG] [mixin/]: Registering new injector for @ModifyArgs with org.spongepowered.asm.mixin.injection.struct.ModifyArgsInjectionInfo
+[16Aug2024 21:10:21.928] [main/DEBUG] [mixin/]: Registering new injector for @Redirect with org.spongepowered.asm.mixin.injection.struct.RedirectInjectionInfo
+[16Aug2024 21:10:21.930] [main/DEBUG] [mixin/]: Registering new injector for @ModifyVariable with org.spongepowered.asm.mixin.injection.struct.ModifyVariableInjectionInfo
+[16Aug2024 21:10:21.931] [main/DEBUG] [mixin/]: Registering new injector for @ModifyConstant with org.spongepowered.asm.mixin.injection.struct.ModifyConstantInjectionInfo
+[16Aug2024 21:10:21.949] [main/DEBUG] [mixin/]: Preparing fancymenu.mixins.json (51)
+[16Aug2024 21:10:21.950] [main/DEBUG] [mixin/]: Preparing fancymenu.neoforge.mixins.json (3)
+[16Aug2024 21:10:21.950] [main/DEBUG] [mixin/]: Preparing geckolib.mixins.json (1)
+[16Aug2024 21:10:21.950] [main/DEBUG] [mixin/]: Preparing architectury.mixins.json (7)
+[16Aug2024 21:10:21.988] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/item/FallingBlockEntity to metadata cache
+[16Aug2024 21:10:21.990] [main/TRACE] [mixin/]: Added class metadata for dev/architectury/extensions/ItemExtension to metadata cache
+[16Aug2024 21:10:21.991] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/event/level/LevelEvent to metadata cache
+[16Aug2024 21:10:21.992] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/storage/loot/LootDataManager to metadata cache
+[16Aug2024 21:10:21.992] [main/DEBUG] [mixin/]: Preparing architectury-common.mixins.json (10)
+[16Aug2024 21:10:21.997] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.Block METHOD popExperience(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;I)V to access PUBLIC and LEAVE
+[16Aug2024 21:10:22.005] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/Block to metadata cache
+[16Aug2024 21:10:22.007] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[16Aug2024 21:10:22.016] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/BucketItem to metadata cache
+[16Aug2024 21:10:22.018] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[16Aug2024 21:10:22.201] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar
+[16Aug2024 21:10:22.201] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/libraries/net/minecraft/server/1.20.4-20231207.154220/server-1.20.4-20231207.154220-srg.jar with language loader minecraft
+[16Aug2024 21:10:22.202] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar
+[16Aug2024 21:10:22.452] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/EntityType to metadata cache
+[16Aug2024 21:10:22.453] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/material/Fluid to metadata cache
+[16Aug2024 21:10:22.454] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/food/FoodProperties$Builder to metadata cache
+[16Aug2024 21:10:22.455] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/gameevent/GameEvent to metadata cache
+[16Aug2024 21:10:22.458] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/Item to metadata cache
+[16Aug2024 21:10:22.458] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/item/Item$Properties to metadata cache
+[16Aug2024 21:10:22.459] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.level.block.LiquidBlock METHOD <init>(Lnet/minecraft/world/level/material/FlowingFluid;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)V to access PUBLIC and LEAVE
+[16Aug2024 21:10:22.460] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[16Aug2024 21:10:22.474] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/block/LiquidBlock to metadata cache
+[16Aug2024 21:10:22.485] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/LightningBolt to metadata cache
+[16Aug2024 21:10:22.485] [main/DEBUG] [mixin/]: Preparing melody.mixins.json (3)
+[16Aug2024 21:10:22.485] [main/DEBUG] [mixin/]: Preparing melody.neoforge.mixins.json (0)
+[16Aug2024 21:10:22.485] [main/DEBUG] [mixin/]: Preparing world-host.mixins.json (26)
+[16Aug2024 21:10:22.493] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/commands/Commands to metadata cache
+[16Aug2024 21:10:22.505] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/network/Connection to metadata cache
+[16Aug2024 21:10:22.506] [main/TRACE] [mixin/CATCHING]: Catching
+java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants
+	at cpw.mods.cl.ModuleClassLoader.getMaybeTransformedClassBytes(ModuleClassLoader.java:311) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.buildTransformedClassNodeFor(TransformingClassLoader.java:58) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchPluginHandler.lambda$announceLaunch$10(LaunchPluginHandler.java:100) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:222) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.getClassNode(MixinLaunchPluginLegacy.java:207) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.ClassInfo.forName(ClassInfo.java:2022) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.getTargetClass(MixinInfo.java:1018) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.readTargetClasses(MixinInfo.java:1008) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinInfo.parseTargets(MixinInfo.java:896) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepareMixins(MixinConfig.java:869) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinConfig.prepare(MixinConfig.java:777) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.prepareConfigs(MixinProcessor.java:540) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.select(MixinProcessor.java:462) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.checkSelect(MixinProcessor.java:438) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinProcessor.applyMixins(MixinProcessor.java:290) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.mixin.transformer.MixinTransformer.transformClass(MixinTransformer.java:250) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.service.modlauncher.MixinTransformationHandler.processClass(MixinTransformationHandler.java:131) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at org.spongepowered.asm.launch.MixinLaunchPluginLegacy.processClass(MixinLaunchPluginLegacy.java:131) ~[sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/:0.13.1+mixin.0.8.5]
+	at cpw.mods.modlauncher.serviceapi.ILaunchPluginService.processClassWithFlags(ILaunchPluginService.java:156) ~[modlauncher-10.0.9.jar%2365!/:10.0.9+10.0.9+main.dcd20f30]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:169) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:275) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:288) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:275) ~[securejarhandler-2.1.24.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:638) ~[?:?]
+	at java.lang.Class.forName(Class.java:625) ~[?:?]
+	at java.lang.Class.forName(Class.java:600) ~[?:?]
+	at net.neoforged.fml.loading.ImmediateWindowHandler$DummyProvider.lambda$updateModuleReads$1(ImmediateWindowHandler.java:163) ~[loader-2.0.17.jar%2362!/:2.0]
+	at java.util.Optional.map(Optional.java:260) ~[?:?]
+	at net.neoforged.fml.loading.ImmediateWindowHandler$DummyProvider.updateModuleReads(ImmediateWindowHandler.java:163) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.ImmediateWindowHandler.acceptGameLayer(ImmediateWindowHandler.java:85) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.FMLLoader.beforeStart(FMLLoader.java:206) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.launchService(CommonLaunchHandler.java:115) ~[loader-2.0.17.jar%2362!/:2.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]
+[16Aug2024 21:10:22.514] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants)
+[16Aug2024 21:10:22.519] [main/TRACE] [mixin/]: Added class metadata for com/mojang/blaze3d/platform/InputConstants to metadata cache
+[16Aug2024 21:10:22.520] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.platform.InputConstants was not found world-host.mixins.json:MixinInputConstants from mod world_host
+[16Aug2024 21:10:22.523] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/storage/LevelSummary to metadata cache
+[16Aug2024 21:10:22.529] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar
+[16Aug2024 21:10:22.529] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/mods/fancymenu_neoforge_3.2.3_MC_1.20.4.jar with language loader javafml
+[16Aug2024 21:10:22.531] [background-scan-handler-0/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class de.keksuccino.fancymenu.FancyMenuNeoForge with id fancymenu
+[16Aug2024 21:10:22.532] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar
+[16Aug2024 21:10:22.539] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/players/PlayerList to metadata cache
+[16Aug2024 21:10:22.539] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/commands/PublishCommand to metadata cache
+[16Aug2024 21:10:22.540] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/network/ServerConnectionListener$1 to metadata cache
+[16Aug2024 21:10:22.548] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/network/ServerConnectionListener to metadata cache
+[16Aug2024 21:10:22.548] [main/DEBUG] [mixin/]: Preparing fmsia.mixins.json (2)
+[16Aug2024 21:10:22.548] [main/DEBUG] [mixin/]: Preparing fmsia.neoforge.mixins.json (0)
+[16Aug2024 21:10:22.548] [main/DEBUG] [mixin/]: Preparing konkrete.mixins.json (11)
+[16Aug2024 21:10:22.549] [main/DEBUG] [mixin/]: Preparing konkrete.neoforge.mixins.json (1)
+[16Aug2024 21:10:22.549] [main/DEBUG] [mixin/]: Preparing drippyloadingscreen.mixins.json (13)
+[16Aug2024 21:10:22.549] [main/DEBUG] [mixin/]: Preparing drippyloadingscreen.neoforge.mixins.json (1)
+[16Aug2024 21:10:22.549] [main/DEBUG] [mixin/]: Preparing mixinextras.init.mixins.json (0)
+[16Aug2024 21:10:22.553] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/level/chunk/storage/ChunkSerializer to metadata cache
+[16Aug2024 21:10:22.557] [main/TRACE] [mixin/]: Added class metadata for dev/architectury/event/events/common/BlockEvent$FallingLand to metadata cache
+[16Aug2024 21:10:22.579] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity FIELD ENTITY_COUNTER to access PROTECTED and LEAVE
+[16Aug2024 21:10:22.579] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD getEncodeId()Ljava/lang/String; to access PUBLIC and LEAVE
+[16Aug2024 21:10:22.579] [main/DEBUG] [net.neoforged.accesstransformer.AccessTransformer/AXFORM]: Transforming net.minecraft.world.entity.Entity METHOD getLeashOffset()Lnet/minecraft/world/phys/Vec3; to access PUBLIC and LEAVE
+[16Aug2024 21:10:22.581] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar
+[16Aug2024 21:10:22.581] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/mods/geckolib-neoforge-1.20.4-4.4.4.jar with language loader javafml
+[16Aug2024 21:10:22.581] [background-scan-handler-0/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class software.bernie.example.GeckoLibMod with id geckolib
+[16Aug2024 21:10:22.582] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar
+[16Aug2024 21:10:22.650] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/world/entity/Entity to metadata cache
+[16Aug2024 21:10:22.652] [main/TRACE] [mixin/]: Added class metadata for dev/architectury/event/forge/EventHandlerImplCommon$LevelEventAttachment to metadata cache
+[16Aug2024 21:10:22.652] [main/TRACE] [mixin/]: Added class metadata for net/minecraft/server/packs/resources/PreparableReloadListener$PreparationBarrier to metadata cache
+[16Aug2024 21:10:22.653] [main/TRACE] [mixin/]: Added class metadata for net/neoforged/neoforge/event/level/ChunkDataEvent$Load to metadata cache
+[16Aug2024 21:10:22.654] [main/TRACE] [mixin/]: Added class metadata for dev/architectury/event/events/common/LightningEvent$Strike to metadata cache
+[16Aug2024 21:10:22.655] [main/TRACE] [mixin/]: Added class metadata for org/spongepowered/asm/mixin/injection/At$Shift to metadata cache
+[16Aug2024 21:10:22.665] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar
+[16Aug2024 21:10:22.665] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/mods/architectury-11.1.17-neoforge.jar with language loader javafml
+[16Aug2024 21:10:22.665] [background-scan-handler-0/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class dev.architectury.neoforge.ArchitecturyNeoForge with id architectury
+[16Aug2024 21:10:22.665] [main/TRACE] [mixin/]: Added class metadata for io/netty/channel/ChannelInitializer to metadata cache
+[16Aug2024 21:10:22.666] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/mods/melody_neoforge_1.0.5_MC_1.20.4.jar
+[16Aug2024 21:10:22.668] [main/DEBUG] [mixin/]: Prepared 21 mixins in 0.910 sec (43.3ms avg) (0ms load, 0ms transform, 0ms plugin)
+[16Aug2024 21:10:22.671] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/mods/melody_neoforge_1.0.5_MC_1.20.4.jar
+[16Aug2024 21:10:22.671] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/mods/melody_neoforge_1.0.5_MC_1.20.4.jar with language loader javafml
+[16Aug2024 21:10:22.671] [background-scan-handler-0/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class de.keksuccino.melody.MelodyNeoForge with id melody
+[16Aug2024 21:10:22.671] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/mods/world-host-0.4.14+1.20.4-neoforge.jar
+[16Aug2024 21:10:22.695] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/mods/world-host-0.4.14+1.20.4-neoforge.jar
+[16Aug2024 21:10:22.696] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/mods/world-host-0.4.14+1.20.4-neoforge.jar with language loader javafml
+[16Aug2024 21:10:22.696] [background-scan-handler-0/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class io.github.gaming32.worldhost.WorldHost with id world_host
+[16Aug2024 21:10:22.696] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar
+[16Aug2024 21:10:22.700] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar
+[16Aug2024 21:10:22.700] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/mods/fmsia_neoforge_1.0.1_MC_1.20.4.jar with language loader javafml
+[16Aug2024 21:10:22.700] [background-scan-handler-0/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class de.keksuccino.fmsia.FMSIANeoForge with id fmsia
+[16Aug2024 21:10:22.700] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar
+[16Aug2024 21:10:22.798] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.AbstractJarFileModProvider/SCAN]: Scan finished: Mod File: /workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar
+[16Aug2024 21:10:22.798] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.Scanner/SCAN]: Scanning /workspaces/codespaces-blank/mods/konkrete_neoforge_1.9.1_MC_1.20.4.jar with language loader javafml
+[16Aug2024 21:10:22.798] [background-scan-handler-0/DEBUG] [net.neoforged.fml.javafmlmod.FMLJavaModLanguageProvider/SCAN]: Found @Mod class de.keksuccino.konkrete.KonkreteNeoForge with id konkrete
+[16Aug2024 21:10:22.798] [background-scan-handler-0/DEBUG] [net.neoforged.fml.loading.moddiscovery.MinecraftLocator/SCAN]: Scan started: Mod File: /workspaces/codespaces-blank/libraries/net/neoforged/neoforge/20.4.229/neoforge-20.4.229-universal.jar
+[16Aug2024 21:10:23.052] [main/DEBUG] [io.netty.util.internal.logging.InternalLoggerFactory/]: Using SLF4J as the default logging framework
+[16Aug2024 21:10:23.055] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.level: simple
+[16Aug2024 21:10:23.055] [main/DEBUG] [io.netty.util.ResourceLeakDetector/]: -Dio.netty.leakDetection.targetRecords: 4
+[16Aug2024 21:10:23.281] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@348ad293
+[16Aug2024 21:10:23.291] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2f92e0f4
+[16Aug2024 21:10:23.449] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[16Aug2024 21:10:23.450] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[16Aug2024 21:10:23.456] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/stat
+[16Aug2024 21:10:23.459] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[16Aug2024 21:10:23.459] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[16Aug2024 21:10:23.460] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[16Aug2024 21:10:23.460] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[16Aug2024 21:10:23.460] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[16Aug2024 21:10:23.461] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[16Aug2024 21:10:23.461] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[16Aug2024 21:10:23.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[16Aug2024 21:10:23.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[16Aug2024 21:10:23.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[16Aug2024 21:10:23.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[16Aug2024 21:10:23.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[16Aug2024 21:10:23.462] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[16Aug2024 21:10:23.463] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[16Aug2024 21:10:23.463] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[16Aug2024 21:10:23.463] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[16Aug2024 21:10:23.463] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[16Aug2024 21:10:23.463] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[16Aug2024 21:10:23.463] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[16Aug2024 21:10:23.464] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[16Aug2024 21:10:23.464] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[16Aug2024 21:10:23.464] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[16Aug2024 21:10:23.464] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[16Aug2024 21:10:23.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[16Aug2024 21:10:23.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[16Aug2024 21:10:23.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[16Aug2024 21:10:23.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[16Aug2024 21:10:23.465] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[16Aug2024 21:10:23.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[16Aug2024 21:10:23.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[16Aug2024 21:10:23.466] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[16Aug2024 21:10:23.467] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[16Aug2024 21:10:23.467] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[16Aug2024 21:10:23.468] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[16Aug2024 21:10:23.468] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[16Aug2024 21:10:23.468] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[16Aug2024 21:10:23.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[16Aug2024 21:10:23.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[16Aug2024 21:10:23.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[16Aug2024 21:10:23.469] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[16Aug2024 21:10:23.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[16Aug2024 21:10:23.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[16Aug2024 21:10:23.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[16Aug2024 21:10:23.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[16Aug2024 21:10:23.470] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[16Aug2024 21:10:23.471] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[16Aug2024 21:10:23.471] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[16Aug2024 21:10:23.472] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[16Aug2024 21:10:23.472] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[16Aug2024 21:10:23.472] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[16Aug2024 21:10:23.475] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[16Aug2024 21:10:23.476] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[16Aug2024 21:10:23.476] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[16Aug2024 21:10:23.476] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[16Aug2024 21:10:23.476] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[16Aug2024 21:10:23.476] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[16Aug2024 21:10:23.477] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[16Aug2024 21:10:23.477] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[16Aug2024 21:10:23.477] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[16Aug2024 21:10:23.477] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[16Aug2024 21:10:23.477] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[16Aug2024 21:10:23.477] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[16Aug2024 21:10:23.477] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[16Aug2024 21:10:23.478] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[16Aug2024 21:10:23.478] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[16Aug2024 21:10:23.478] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[16Aug2024 21:10:23.478] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[16Aug2024 21:10:23.478] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[16Aug2024 21:10:23.478] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[16Aug2024 21:10:23.479] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[16Aug2024 21:10:23.480] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[16Aug2024 21:10:23.480] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[16Aug2024 21:10:23.482] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[16Aug2024 21:10:23.497] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[16Aug2024 21:10:23.498] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@348ad293
+[16Aug2024 21:10:23.500] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2f92e0f4
+[16Aug2024 21:10:23.516] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[16Aug2024 21:10:23.517] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[16Aug2024 21:10:23.598] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[16Aug2024 21:10:23.599] [main/DEBUG] [mixin/]: Registering new injector for @SugarWrapper with com.llamalad7.mixinextras.sugar.impl.SugarWrapperInjectionInfo
+[16Aug2024 21:10:23.600] [main/DEBUG] [mixin/]: Registering new injector for @FactoryRedirectWrapper with com.llamalad7.mixinextras.wrapper.factory.FactoryRedirectWrapperInjectionInfo
+[16Aug2024 21:10:23.603] [main/DEBUG] [mixin/]: Mixing inject.MixinGameEvent from architectury-common.mixins.json into net.minecraft.world.level.gameevent.GameEvent
+[16Aug2024 21:10:23.605] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinGameEvent from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:23.628] [main/DEBUG] [mixin/]: Mixing inject.MixinFluid from architectury-common.mixins.json into net.minecraft.world.level.material.Fluid
+[16Aug2024 21:10:23.628] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinFluid from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:23.636] [main/DEBUG] [mixin/]: Mixing inject.MixinBlock from architectury-common.mixins.json into net.minecraft.world.level.block.Block
+[16Aug2024 21:10:23.643] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinBlock from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:23.684] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/EntityType
+[16Aug2024 21:10:23.826] [main/DEBUG] [mixin/]: Mixing inject.MixinEntityType from architectury-common.mixins.json into net.minecraft.world.entity.EntityType
+[16Aug2024 21:10:23.827] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinEntityType from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:23.844] [main/DEBUG] [mixin/]: Mixing inject.MixinItem from architectury-common.mixins.json into net.minecraft.world.item.Item
+[16Aug2024 21:10:23.844] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinItem from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:23.886] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinItem from mod architectury->@Inject::init(Lnet/minecraft/world/item/Item$Properties;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V doesn't use it's CallbackInfo
+[16Aug2024 21:10:23.886] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinItem from mod architectury->@Inject::init(Lnet/minecraft/world/item/Item$Properties;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V has 0 override(s) in child classes
+[16Aug2024 21:10:23.886] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinItem from mod architectury->@Inject::init(Lnet/minecraft/world/item/Item$Properties;Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;)V won't be passed a CallbackInfo as a result
+[16Aug2024 21:10:24.362] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/LiquidBlock
+[16Aug2024 21:10:24.363] [main/DEBUG] [mixin/]: Mixing inject.MixinLiquidBlock from architectury-common.mixins.json into net.minecraft.world.level.block.LiquidBlock
+[16Aug2024 21:10:24.364] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinLiquidBlock from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:24.569] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/StairBlock
+[16Aug2024 21:10:24.625] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/block/FlowerPotBlock
+[16Aug2024 21:10:24.775] [main/DEBUG] [mixin/]: Mixing MixinFallingBlockEntity from architectury.mixins.json into net.minecraft.world.entity.item.FallingBlockEntity
+[16Aug2024 21:10:24.778] [main/DEBUG] [mixin/]: architectury.mixins.json:MixinFallingBlockEntity from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:24.852] [main/DEBUG] [mixin/]: architectury.mixins.json:MixinFallingBlockEntity from mod architectury->@Inject::handleLand(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;ZZDLnet/minecraft/world/level/block/state/BlockState;)V doesn't use it's CallbackInfo
+[16Aug2024 21:10:24.852] [main/DEBUG] [mixin/]: architectury.mixins.json:MixinFallingBlockEntity from mod architectury->@Inject::handleLand(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;ZZDLnet/minecraft/world/level/block/state/BlockState;)V has 0 override(s) in child classes
+[16Aug2024 21:10:24.852] [main/DEBUG] [mixin/]: architectury.mixins.json:MixinFallingBlockEntity from mod architectury->@Inject::handleLand(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;ZZDLnet/minecraft/world/level/block/state/BlockState;)V won't be passed a CallbackInfo as a result
+[16Aug2024 21:10:25.633] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/biome/Biome
+[16Aug2024 21:10:26.868] [main/DEBUG] [mixin/]: Mixing MixinLightningBolt from architectury-common.mixins.json into net.minecraft.world.entity.LightningBolt
+[16Aug2024 21:10:26.869] [main/DEBUG] [mixin/]: architectury-common.mixins.json:MixinLightningBolt from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:26.890] [main/DEBUG] [mixin/]: architectury-common.mixins.json:MixinLightningBolt from mod architectury->@Inject::handleLightning(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/List;)V doesn't use it's CallbackInfo
+[16Aug2024 21:10:26.890] [main/DEBUG] [mixin/]: architectury-common.mixins.json:MixinLightningBolt from mod architectury->@Inject::handleLightning(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/List;)V has 0 override(s) in child classes
+[16Aug2024 21:10:26.890] [main/DEBUG] [mixin/]: architectury-common.mixins.json:MixinLightningBolt from mod architectury->@Inject::handleLightning(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfo;Ljava/util/List;)V won't be passed a CallbackInfo as a result
+[16Aug2024 21:10:27.014] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/frog/Tadpole
+[16Aug2024 21:10:28.207] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/item/BucketItem
+[16Aug2024 21:10:28.208] [main/DEBUG] [mixin/]: Mixing inject.MixinBucketItem from architectury-common.mixins.json into net.minecraft.world.item.BucketItem
+[16Aug2024 21:10:28.208] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinBucketItem from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:28.270] [main/DEBUG] [mixin/]: Mixing inject.MixinItemProperties from architectury-common.mixins.json into net.minecraft.world.item.Item$Properties
+[16Aug2024 21:10:28.270] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinItemProperties from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:29.299] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Spider
+[16Aug2024 21:10:29.475] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Zombie
+[16Aug2024 21:10:29.611] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/ZombieVillager
+[16Aug2024 21:10:29.699] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Evoker$EvokerSummonSpellGoal
+[16Aug2024 21:10:29.879] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/animal/horse/SkeletonTrapGoal
+[16Aug2024 21:10:29.925] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/monster/Strider
+[16Aug2024 21:10:30.180] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/entity/npc/Villager
+[16Aug2024 21:10:30.409] [main/DEBUG] [mixin/]: Mixing inject.MixinFoodPropertiesBuilder from architectury-common.mixins.json into net.minecraft.world.food.FoodProperties$Builder
+[16Aug2024 21:10:30.409] [main/DEBUG] [mixin/]: architectury-common.mixins.json:inject.MixinFoodPropertiesBuilder from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:31.412] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: -Dio.netty.noUnsafe: false
+[16Aug2024 21:10:31.412] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: Java version: 21
+[16Aug2024 21:10:31.413] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.theUnsafe: available
+[16Aug2024 21:10:31.413] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.copyMemory: available
+[16Aug2024 21:10:31.413] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: sun.misc.Unsafe.storeFence: available
+[16Aug2024 21:10:31.414] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Buffer.address: available
+[16Aug2024 21:10:31.414] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.Bits.unaligned: available, true
+[16Aug2024 21:10:31.416] [main/DEBUG] [io.netty.util.internal.PlatformDependent0/]: java.nio.DirectByteBuffer.<init>(long, {int,long}): unavailable
+[16Aug2024 21:10:31.416] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: sun.misc.Unsafe: available
+[16Aug2024 21:10:31.416] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: maxDirectMemory: 2080374784 bytes (maybe)
+[16Aug2024 21:10:31.416] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+[16Aug2024 21:10:31.417] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.bitMode: 64 (sun.arch.data.model)
+[16Aug2024 21:10:31.417] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.maxDirectMemory: -1 bytes
+[16Aug2024 21:10:31.417] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.uninitializedArrayAllocationThreshold: -1
+[16Aug2024 21:10:31.418] [main/DEBUG] [io.netty.util.internal.CleanerJava9/]: java.nio.ByteBuffer.cleaner(): available
+[16Aug2024 21:10:31.418] [main/DEBUG] [io.netty.util.internal.PlatformDependent/]: -Dio.netty.noPreferDirect: false
+[16Aug2024 21:10:32.043] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/Structure
+[16Aug2024 21:10:32.108] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanRuinPieces$OceanRuinPiece
+[16Aug2024 21:10:32.151] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/SwampHutPiece
+[16Aug2024 21:10:32.189] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/OceanMonumentPieces$OceanMonumentPiece
+[16Aug2024 21:10:32.220] [main/DEBUG] [net.neoforged.coremod.transformer.CoreModBaseTransformer/COREMOD]: Transforming net/minecraft/world/level/levelgen/structure/structures/WoodlandMansionPieces$WoodlandMansionPiece
+[16Aug2024 21:10:32.681] [main/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 6786
+[16Aug2024 21:10:32.696] [main/DEBUG] [net.neoforged.fml.ModWorkManager/LOADING]: Using 2 threads for parallel mod-loading
+[16Aug2024 21:10:32.702] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.fancymenu.FancyMenuNeoForge
+[16Aug2024 21:10:32.706] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for software.bernie.example.GeckoLibMod
+[16Aug2024 21:10:32.707] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for dev.architectury.neoforge.ArchitecturyNeoForge
+[16Aug2024 21:10:32.707] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.melody.MelodyNeoForge
+[16Aug2024 21:10:32.707] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for io.github.gaming32.worldhost.WorldHost
+[16Aug2024 21:10:32.710] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.fmsia.FMSIANeoForge
+[16Aug2024 21:10:32.710] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.konkrete.KonkreteNeoForge
+[16Aug2024 21:10:32.710] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.neoforged.neoforge.common.NeoForgeMod
+[16Aug2024 21:10:32.710] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for net.particleeffects.ParticlepresetsMod
+[16Aug2024 21:10:32.713] [main/DEBUG] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Creating FMLModContainer instance for de.keksuccino.drippyloadingscreen.DrippyLoadingScreenNeoForge
+[16Aug2024 21:10:32.745] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.2.3 in server-side mode on NEOFORGE!
+[16Aug2024 21:10:32.757] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for geckolib
+[16Aug2024 21:10:32.766] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing software.bernie.example.CommonListener to MOD
+[16Aug2024 21:10:32.787] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fancymenu
+[16Aug2024 21:10:32.790] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[16Aug2024 21:10:32.791] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for melody
+[16Aug2024 21:10:32.794] [modloading-worker-0/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[16Aug2024 21:10:32.795] [modloading-worker-0/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: world_host, class io.github.gaming32.worldhost.WorldHost
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.neoforged.fml.common.asm.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[loader-2.0.17.jar%2362!/:2.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:169) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:275) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:288) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:275) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:191) ~[securejarhandler-2.1.24.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
+	at java.lang.Class.getConstructors(Class.java:2227) ~[?:?]
+	at net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:78) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:129) ~[loader-2.0.17.jar%2362!/:2.0]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[16Aug2024 21:10:32.801] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinLevelEvent from architectury.mixins.json into net.neoforged.neoforge.event.level.LevelEvent
+[16Aug2024 21:10:32.803] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for fmsia
+[16Aug2024 21:10:32.805] [modloading-worker-0/DEBUG] [mixin/]: architectury.mixins.json:MixinLevelEvent from mod architectury: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:32.815] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Loading v1.9.1 in server-side mode on NEOFORGE!
+[16Aug2024 21:10:32.815] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[16Aug2024 21:10:32.816] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[16Aug2024 21:10:32.816] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.816] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging Copyright © 2014 Dhyan Blum.
+[16Aug2024 21:10:32.817] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging is licensed under Apache-2.0.
+[16Aug2024 21:10:32.817] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.817] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath Copyright © 2017 Jayway.
+[16Aug2024 21:10:32.818] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath is licensed under Apache-2.0.
+[16Aug2024 21:10:32.818] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.818] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart Copyright © netplex.
+[16Aug2024 21:10:32.819] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart is licensed under Apache-2.0.
+[16Aug2024 21:10:32.821] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.822] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j Copyright © Frank Asseg.
+[16Aug2024 21:10:32.822] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[16Aug2024 21:10:32.823] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[16Aug2024 21:10:32.823] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
+[16Aug2024 21:10:32.823] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for konkrete
+[16Aug2024 21:10:32.825] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: NeoForge Version package package net.neoforged.neoforge.internal.versions.neoforge, NeoForge, version 20.4 from cpw.mods.modlauncher.TransformingClassLoader@348ad293
+[16Aug2024 21:10:32.828] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge version 20.4.229
+[16Aug2024 21:10:32.828] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge spec 20.4
+[16Aug2024 21:10:32.828] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoforge.NeoForgeVersion/CORE]: Found NeoForge group net.neoforged
+[16Aug2024 21:10:32.829] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: NeoForm Version package package net.neoforged.neoforge.internal.versions.neoform from cpw.mods.modlauncher.TransformingClassLoader@348ad293
+[16Aug2024 21:10:32.829] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found MC version information 1.20.4
+[16Aug2024 21:10:32.829] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.internal.versions.neoform.NeoFormVersion/CORE]: Found NeoForm version information 20231207.154220
+[16Aug2024 21:10:32.829] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.229, for MC 1.20.4 with MCP 20231207.154220
+[16Aug2024 21:10:32.830] [modloading-worker-0/DEBUG] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: Loading Network data for FML net version: 20.4
+[16Aug2024 21:10:32.898] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-client.toml for neoforge tracking
+[16Aug2024 21:10:32.898] [modloading-worker-0/DEBUG] [net.neoforged.fml.config.ConfigTracker/CONFIG]: Config file neoforge-server.toml for neoforge tracking
+[16Aug2024 21:10:32.898] [modloading-worker-0/DEBUG] [net.neoforged.fml.ModLoadingContext/]: Attempted to register an empty config for type COMMON on mod neoforge
+[16Aug2024 21:10:32.909] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for architectury
+[16Aug2024 21:10:32.909] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing dev.architectury.networking.forge.NetworkManagerImpl to FORGE
+[16Aug2024 21:10:32.956] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for neoforge
+[16Aug2024 21:10:32.956] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.filters.GenericPacketSplitter to MOD
+[16Aug2024 21:10:32.961] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for particlepresets
+[16Aug2024 21:10:32.961] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.procedures.TimerProcedure to FORGE
+[16Aug2024 21:10:32.962] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.procedures.TestProcedure to FORGE
+[16Aug2024 21:10:32.963] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.network.ParticlepresetsModVariables to MOD
+[16Aug2024 21:10:32.964] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.network.ParticlepresetsModVariables$EventBusVariableHandlers to FORGE
+[16Aug2024 21:10:32.968] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.init.ParticlepresetsModTabs to MOD
+[16Aug2024 21:10:32.969] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.init.ParticlepresetsModMobEffects to FORGE
+[16Aug2024 21:10:32.970] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.init.ParticlepresetsModEntities to MOD
+[16Aug2024 21:10:32.971] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.ShockwaveexCommand to FORGE
+[16Aug2024 21:10:32.975] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.ShockAreaCommand to FORGE
+[16Aug2024 21:10:32.976] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.RtrailCommand to FORGE
+[16Aug2024 21:10:32.977] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.QuakecordCommand to FORGE
+[16Aug2024 21:10:32.978] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.QuakeCommand to FORGE
+[16Aug2024 21:10:32.979] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.ParticlepresetrelCommand to FORGE
+[16Aug2024 21:10:32.980] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.ParticlepresetCommand to FORGE
+[16Aug2024 21:10:32.981] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.ParticlecircleCommand to FORGE
+[16Aug2024 21:10:32.983] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.particleeffects.command.ParitcleSetCoordsCommand to FORGE
+[16Aug2024 21:10:32.987] [modloading-worker-0/INFO] [de.keksuccino.drippyloadingscreen.DrippyLoadingScreen/]: [DRIPPY LOADING SCREEN] Loading v3.0.3 in server-side mode on NEOFORGE!
+[16Aug2024 21:10:32.987] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Attempting to inject @EventBusSubscriber classes into the eventbus for drippyloadingscreen
+[16Aug2024 21:10:33.098] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkAccessible: true
+[16Aug2024 21:10:33.098] [modloading-worker-0/DEBUG] [io.netty.buffer.AbstractByteBuf/]: -Dio.netty.buffer.checkBounds: true
+[16Aug2024 21:10:33.099] [modloading-worker-0/DEBUG] [io.netty.util.ResourceLeakDetectorFactory/]: Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@4b34e7a2
+[16Aug2024 21:10:33.106] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+[16Aug2024 21:10:33.106] [modloading-worker-0/DEBUG] [io.netty.util.internal.InternalThreadLocalMap/]: -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numHeapArenas: 4
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.numDirectArenas: 4
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.pageSize: 8192
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxOrder: 9
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.chunkSize: 4194304
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.smallCacheSize: 256
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.normalCacheSize: 64
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedBufferCapacity: 32768
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimInterval: 8192
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.cacheTrimIntervalMillis: 0
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.useCacheForAllThreads: false
+[16Aug2024 21:10:33.109] [modloading-worker-0/DEBUG] [io.netty.buffer.PooledByteBufAllocator/]: -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
+[16Aug2024 21:10:33.117] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.allocator.type: pooled
+[16Aug2024 21:10:33.118] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.threadLocalDirectBufferSize: 0
+[16Aug2024 21:10:33.118] [modloading-worker-0/DEBUG] [io.netty.buffer.ByteBufUtil/]: -Dio.netty.maxThreadLocalCharBufferSize: 16384
+[16Aug2024 21:10:33.124] [modloading-worker-0/DEBUG] [mixin/]: Mixing MixinConnection from world-host.mixins.json into net.minecraft.network.Connection
+[16Aug2024 21:10:33.126] [modloading-worker-0/DEBUG] [mixin/]: world-host.mixins.json:MixinConnection from mod world_host: Class version 61 required is higher than the class version supported by the current version of Mixin (JAVA_16 supports class version 60)
+[16Aug2024 21:10:33.139] [modloading-worker-0/DEBUG] [mixin/]: world-host.mixins.json:MixinConnection from mod world_host->@Inject::proxyConnectionDoesntCountAsMemory(Lorg/spongepowered/asm/mixin/injection/callback/CallbackInfoReturnable;)V does use it's CallbackInfoReturnable
+[16Aug2024 21:10:33.149] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.NetworkInitialization to MOD
+[16Aug2024 21:10:33.151] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.network.ConfigurationInitialization to MOD
+[16Aug2024 21:10:33.153] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.common.DeferredSpawnEggItem$CommonHandler to MOD
+[16Aug2024 21:10:33.154] [modloading-worker-0/DEBUG] [net.neoforged.fml.javafmlmod.AutomaticEventSubscriber/LOADING]: Auto-subscribing net.neoforged.neoforge.attachment.AttachmentInternals to FORGE
+[16Aug2024 21:10:33.158] [main/FATAL] [net.neoforged.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[16Aug2024 21:10:33.193] [main/DEBUG] [net.neoforged.neoforge.common.I18nExtension/CORE]: Loading I18N data entries: 6786
+[16Aug2024 21:10:33.194] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[16Aug2024 21:10:33.194] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/core_id
+[16Aug2024 21:10:33.195] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[16Aug2024 21:10:33.195] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/topology/physical_package_id
+[16Aug2024 21:10:33.196] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cpu_capacity
+[16Aug2024 21:10:33.196] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[16Aug2024 21:10:33.196] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/level
+[16Aug2024 21:10:33.196] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[16Aug2024 21:10:33.196] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/type
+[16Aug2024 21:10:33.196] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[16Aug2024 21:10:33.197] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/ways_of_associativity
+[16Aug2024 21:10:33.197] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[16Aug2024 21:10:33.197] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/coherency_line_size
+[16Aug2024 21:10:33.197] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[16Aug2024 21:10:33.197] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index2/size
+[16Aug2024 21:10:33.197] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[16Aug2024 21:10:33.197] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/level
+[16Aug2024 21:10:33.198] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[16Aug2024 21:10:33.198] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/type
+[16Aug2024 21:10:33.198] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[16Aug2024 21:10:33.198] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/ways_of_associativity
+[16Aug2024 21:10:33.198] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[16Aug2024 21:10:33.198] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/coherency_line_size
+[16Aug2024 21:10:33.199] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[16Aug2024 21:10:33.199] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index0/size
+[16Aug2024 21:10:33.199] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[16Aug2024 21:10:33.199] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/level
+[16Aug2024 21:10:33.200] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[16Aug2024 21:10:33.200] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/type
+[16Aug2024 21:10:33.200] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[16Aug2024 21:10:33.202] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/ways_of_associativity
+[16Aug2024 21:10:33.202] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[16Aug2024 21:10:33.202] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/coherency_line_size
+[16Aug2024 21:10:33.202] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[16Aug2024 21:10:33.202] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index3/size
+[16Aug2024 21:10:33.202] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[16Aug2024 21:10:33.202] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/level
+[16Aug2024 21:10:33.203] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[16Aug2024 21:10:33.203] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/type
+[16Aug2024 21:10:33.204] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[16Aug2024 21:10:33.204] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/ways_of_associativity
+[16Aug2024 21:10:33.268] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[16Aug2024 21:10:33.269] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/coherency_line_size
+[16Aug2024 21:10:33.269] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[16Aug2024 21:10:33.269] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu0/cache/index1/size
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/core_id
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/topology/physical_package_id
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cpu_capacity
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/level
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[16Aug2024 21:10:33.270] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/type
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/ways_of_associativity
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/coherency_line_size
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index2/size
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/level
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/type
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/ways_of_associativity
+[16Aug2024 21:10:33.271] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[16Aug2024 21:10:33.272] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/coherency_line_size
+[16Aug2024 21:10:33.272] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[16Aug2024 21:10:33.274] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index0/size
+[16Aug2024 21:10:33.274] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[16Aug2024 21:10:33.274] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/level
+[16Aug2024 21:10:33.274] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/type
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/ways_of_associativity
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/coherency_line_size
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index3/size
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[16Aug2024 21:10:33.275] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/level
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/type
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/ways_of_associativity
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/coherency_line_size
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[16Aug2024 21:10:33.276] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /sys/devices/system/cpu/cpu1/cache/index1/size
+[16Aug2024 21:10:33.277] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/cpuinfo
+[16Aug2024 21:10:33.286] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/self/auxv
+[16Aug2024 21:10:33.287] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader cpw.mods.modlauncher.TransformingClassLoader@348ad293
+[16Aug2024 21:10:33.287] [main/DEBUG] [oshi.util.FileUtil/]: No oshi.architecture.properties file found from ClassLoader jdk.internal.loader.ClassLoaders$AppClassLoader@2f92e0f4
+[16Aug2024 21:10:33.299] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[16Aug2024 21:10:33.300] [main/DEBUG] [oshi.util.FileUtil/]: Reading file /proc/meminfo
+[16Aug2024 21:10:33.304] [main/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (17/19)
+[16Aug2024 21:10:33.325] [main/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 7190764d-49d5-477d-bec4-fd582fac3251
+[16Aug2024 21:10:33.336] [main/FATAL] [net.neoforged.neoforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2024-08-16_21.10.33-fml.txt
+[16Aug2024 21:10:33.342] [main/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 1a143cde-d3b7-48a8-b6d4-ba3e74029365
+[16Aug2024 21:10:33.356] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.neoforged.fml.LoadingFailedException: Loading errors encountered: [
+	World Host (world_host) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+]
+	at net.neoforged.fml.ModLoader.waitForTransition(ModLoader.java:254) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:218) ~[loader-2.0.17.jar%2362!/:2.0]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.neoforged.fml.ModLoader.dispatchAndHandleError(ModLoader.java:218) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:191) ~[loader-2.0.17.jar%2362!/:2.0]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.neoforged.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:191) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[neoforge-20.4.229-universal.jar%23143!/:?]
+	at net.minecraft.server.Main.main(Main.java:122) ~[server-1.20.4-20231207.154220-srg.jar%23142!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:26) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-2.0.17.jar%2362!/:2.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]

@@ -1,0 +1,116 @@
+[16Aug2024 21:10:19.214] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.neoForgeVersion, 20.4.229, --fml.fmlVersion, 2.0.17, --fml.mcVersion, 1.20.4, --fml.neoFormVersion, 20231207.154220, ]
+[16Aug2024 21:10:19.230] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 21.0.3 by Microsoft; OS Linux arch amd64 version 6.5.0-1022-azure
+[16Aug2024 21:10:19.383] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserver
+[16Aug2024 21:10:19.449] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/workspaces/codespaces-blank/libraries/net/fabricmc/sponge-mixin/0.13.1+mixin.0.8.5/sponge-mixin-0.13.1+mixin.0.8.5.jar%2379!/ Service=ModLauncher Env=SERVER
+[16Aug2024 21:10:19.615] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "architectury-11.1.17-neoforge.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.615] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "drippyloadingscreen_neoforge_3.0.3_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.615] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fancymenu_neoforge_3.2.3_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.616] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "fmsia_neoforge_1.0.1_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.616] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "geckolib-neoforge-1.20.4-4.4.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.617] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "konkrete_neoforge_1.9.1_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.617] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "melody_neoforge_1.0.5_MC_1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.617] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "particlepresets-1.0.0-neoforge-1.20.4.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.618] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "world-host-0.4.14+1.20.4-neoforge.jar" of type MOD with provider {mods folder locator at /workspaces/codespaces-blank/mods}
+[16Aug2024 21:10:19.712] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "server-1.20.4-20231207.154220-srg.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@19b30c92
+[16Aug2024 21:10:19.713] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "neoforge-20.4.229-universal.jar" of type MOD with provider net.neoforged.fml.loading.moddiscovery.MinecraftLocator@19b30c92
+[16Aug2024 21:10:19.866] [main/INFO] [net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 6 dependencies adding them to mods collection
+[16Aug2024 21:10:19.867] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "animated-gif-lib-for-java-animated-gif-lib-1.7.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.867] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mclib-20.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.868] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "semver4j-5.3.0.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.869] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "json-0.3.0.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.870] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "mixinextras-neoforge-0.3.5.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:19.871] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/SCAN]: Found mod file "japng-0.5.3.jar" of type GAMELIBRARY with provider net.neoforged.fml.loading.moddiscovery.JarInJarDependencyLocator@548e76f1
+[16Aug2024 21:10:21.628] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[16Aug2024 21:10:21.715] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[16Aug2024 21:10:21.775] [main/WARN] [mixin/]: Reference map 'fancymenu.refmap.json' for fancymenu.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.776] [main/WARN] [mixin/]: Reference map 'fancymenu.refmap.json' for fancymenu.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.789] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.790] [main/WARN] [mixin/]: Reference map 'melody.refmap.json' for melody.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.800] [main/WARN] [mixin/]: Reference map 'fmsia.refmap.json' for fmsia.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.801] [main/WARN] [mixin/]: Reference map 'fmsia.refmap.json' for fmsia.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.803] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.806] [main/WARN] [mixin/]: Reference map 'konkrete.refmap.json' for konkrete.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.813] [main/WARN] [mixin/]: Reference map 'drippyloadingscreen.refmap.json' for drippyloadingscreen.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:21.815] [main/WARN] [mixin/]: Reference map 'drippyloadingscreen.refmap.json' for drippyloadingscreen.neoforge.mixins.json could not be read. If this is a development environment you can ignore this message
+[16Aug2024 21:10:22.514] [main/WARN] [mixin/]: Error loading class: com/mojang/blaze3d/platform/InputConstants (java.lang.ClassNotFoundException: com.mojang.blaze3d.platform.InputConstants)
+[16Aug2024 21:10:22.520] [main/WARN] [mixin/]: @Mixin target com.mojang.blaze3d.platform.InputConstants was not found world-host.mixins.json:MixinInputConstants from mod world_host
+[16Aug2024 21:10:23.598] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[16Aug2024 21:10:32.745] [modloading-worker-0/INFO] [de.keksuccino.fancymenu.FancyMenu/]: [FANCYMENU] Loading v3.2.3 in server-side mode on NEOFORGE!
+[16Aug2024 21:10:32.790] [modloading-worker-0/INFO] [de.keksuccino.melody.Melody/]: [MELODY] Disabling Melody since it's loaded server-side.
+[16Aug2024 21:10:32.794] [modloading-worker-0/ERROR] [net.neoforged.fml.common.asm.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+[16Aug2024 21:10:32.795] [modloading-worker-0/ERROR] [net.neoforged.fml.javafmlmod.FMLModContainer/LOADING]: Failed to create mod instance. ModID: world_host, class io.github.gaming32.worldhost.WorldHost
+java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+	at net.neoforged.fml.common.asm.RuntimeDistCleaner.processClassWithFlags(RuntimeDistCleaner.java:57) ~[loader-2.0.17.jar%2362!/:2.0]
+	at cpw.mods.modlauncher.LaunchPluginHandler.offerClassNodeToPlugins(LaunchPluginHandler.java:88) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.ClassTransformer.transform(ClassTransformer.java:120) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.TransformingClassLoader.maybeTransformClassBytes(TransformingClassLoader.java:50) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.cl.ModuleClassLoader.readerToClass(ModuleClassLoader.java:169) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.lambda$findClass$20(ModuleClassLoader.java:275) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadFromModule(ModuleClassLoader.java:288) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.findClass(ModuleClassLoader.java:275) ~[securejarhandler-2.1.24.jar:?]
+	at cpw.mods.cl.ModuleClassLoader.loadClass(ModuleClassLoader.java:191) ~[securejarhandler-2.1.24.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[?:?]
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:?]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:3549) ~[?:?]
+	at java.lang.Class.getConstructors(Class.java:2227) ~[?:?]
+	at net.neoforged.fml.javafmlmod.FMLModContainer.constructMod(FMLModContainer.java:78) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.ModContainer.lambda$buildTransitionHandler$10(ModContainer.java:129) ~[loader-2.0.17.jar%2362!/:2.0]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[16Aug2024 21:10:32.815] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Loading v1.9.1 in server-side mode on NEOFORGE!
+[16Aug2024 21:10:32.815] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[16Aug2024 21:10:32.816] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[16Aug2024 21:10:32.816] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.816] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging Copyright © 2014 Dhyan Blum.
+[16Aug2024 21:10:32.817] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Open Imaging is licensed under Apache-2.0.
+[16Aug2024 21:10:32.817] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.817] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath Copyright © 2017 Jayway.
+[16Aug2024 21:10:32.818] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: JsonPath is licensed under Apache-2.0.
+[16Aug2024 21:10:32.818] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.818] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart Copyright © netplex.
+[16Aug2024 21:10:32.819] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Json-smart is licensed under Apache-2.0.
+[16Aug2024 21:10:32.821] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]:  
+[16Aug2024 21:10:32.822] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j Copyright © Frank Asseg.
+[16Aug2024 21:10:32.822] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[16Aug2024 21:10:32.823] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: ---------------------------
+[16Aug2024 21:10:32.823] [modloading-worker-0/INFO] [de.keksuccino.konkrete.Konkrete/]: [KONKRETE] Server-side modules initialized and ready to use!
+[16Aug2024 21:10:32.829] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 20.4.229, for MC 1.20.4 with MCP 20231207.154220
+[16Aug2024 21:10:32.987] [modloading-worker-0/INFO] [de.keksuccino.drippyloadingscreen.DrippyLoadingScreen/]: [DRIPPY LOADING SCREEN] Loading v3.0.3 in server-side mode on NEOFORGE!
+[16Aug2024 21:10:33.158] [main/FATAL] [net.neoforged.fml.ModLoader/LOADING]: Failed to complete lifecycle event CONSTRUCT, 1 errors found
+[16Aug2024 21:10:33.304] [main/ERROR] [net.minecraft.CrashReport/]: Negative index in crash report handler (17/19)
+[16Aug2024 21:10:33.325] [main/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 7190764d-49d5-477d-bec4-fd582fac3251
+[16Aug2024 21:10:33.336] [main/FATAL] [net.neoforged.neoforge.server.loading.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2024-08-16_21.10.33-fml.txt
+[16Aug2024 21:10:33.342] [main/FATAL] [net.neoforged.neoforge.common.NeoForgeMod/]: Preparing crash report with UUID 1a143cde-d3b7-48a8-b6d4-ba3e74029365
+[16Aug2024 21:10:33.356] [main/ERROR] [net.minecraft.server.Main/FATAL]: Failed to start the minecraft server
+net.neoforged.fml.LoadingFailedException: Loading errors encountered: [
+	World Host (world_host) has failed to load correctly
+§7java.lang.RuntimeException: Attempted to load class net/minecraft/client/gui/screens/Screen for invalid dist DEDICATED_SERVER
+]
+	at net.neoforged.fml.ModLoader.waitForTransition(ModLoader.java:254) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.ModLoader.lambda$dispatchAndHandleError$20(ModLoader.java:218) ~[loader-2.0.17.jar%2362!/:2.0]
+	at java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at net.neoforged.fml.ModLoader.dispatchAndHandleError(ModLoader.java:218) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.ModLoader.lambda$gatherAndInitializeMods$13(ModLoader.java:191) ~[loader-2.0.17.jar%2362!/:2.0]
+	at java.lang.Iterable.forEach(Iterable.java:75) ~[?:?]
+	at net.neoforged.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:191) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.neoforge.server.loading.ServerModLoader.load(ServerModLoader.java:32) ~[neoforge-20.4.229-universal.jar%23143!/:?]
+	at net.minecraft.server.Main.main(Main.java:122) ~[server-1.20.4-20231207.154220-srg.jar%23142!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:136) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:128) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.targets.CommonServerLaunchHandler.runService(CommonServerLaunchHandler.java:26) ~[loader-2.0.17.jar%2362!/:2.0]
+	at net.neoforged.fml.loading.targets.CommonLaunchHandler.lambda$launchService$4(CommonLaunchHandler.java:118) ~[loader-2.0.17.jar%2362!/:2.0]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:78) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) ~[modlauncher-10.0.9.jar%2365!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) ~[bootstraplauncher-1.1.2.jar:?]

